@@ -1,7 +1,7 @@
 {
-    "name": "sop/crypto-bridge",
+    "name": "webmasterskaya/crypto-bridge",
     "description": "A PHP library providing cryptography support for various PKCS applications.",
-    "homepage": "https://github.com/sop/crypto-bridge",
+    "homepage": "https://github.com/webmasterskaya/crypto-bridge",
     "license": "MIT",
     "type": "library",
     "keywords": [
@@ -17,19 +17,24 @@
             "name": "Joni Eskelinen",
             "email": "jonieske@gmail.com",
             "role": "Developer"
+        },
+        {
+            "name": "Artem Vasilev",
+            "email": "kern.usr@gmail.com",
+            "role": "Developer"
         }
     ],
     "require": {
         "php": ">=7.2",
         "ext-openssl": "*",
-        "sop/crypto-types": "^0.3.0"
+        "webmasterskaya/crypto-types": "^0.3.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.1"
     },
     "autoload": {
         "psr-4": {
-            "Sop\\CryptoBridge\\": "lib/CryptoBridge/"
+            "Webmasterskaya\\CryptoBridge\\": "lib/CryptoBridge/"
         }
     }
 }
